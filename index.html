@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudadanía Digital 7: Constructores de Enciclopedias Digitales</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">🧑‍💻</span> <strong>Ciudadanía Digital Misión 7: Constructores de Enciclopedias Digitales</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">👁️</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+                <li><a href="#activity-6">6</a></li>
+                <li><a href="#activity-7">7</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Comprender la veracidad de la información digital.</li>
+                                        <li>Usar fuentes confiables y comparación.</li>
+                                        <li>Establecer criterios básicos para evaluar la veracidad.</li>
+                                        <li>Practicar la verificación guiada en búsquedas escolares.</li>
+                                        <li>Reconocer cuándo una noticia o contenido puede no ser confiable y aprender a contrastarla con otra fuente.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">Activación Gnius Club</strong></li>
+                                        <li><strong class="tactic-highlight">Recuerdo Relámpago</strong></li>
+                                        <li><strong class="tactic-highlight">Objetivos de la Misión: "I Can Statement"</strong></li>
+                                        <li><strong class="tactic-highlight">Brain Boost</strong></li>
+                                        <li><strong class="tactic-highlight">Gamer Express</strong></li>
+                                        <li><strong class="tactic-highlight">Challenge</strong></li>
+                                        <li><strong class="tactic-highlight">Clave Secreta de la Misión</strong></li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Creación de una "Tarjeta de Datos" con información verificada y sus fuentes.</li>
+                                        <li>Evaluación de la confiabilidad de los datos y las fuentes de un compañero.</li>
+                                        <li>Internalización y memorización del "Sello de Calidad Gnius" (C.E.F.) para información confiable.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Ada" activo y funcionando.</li>
+                                        <li>Presentación de diapositivas.</li>
+                                        <li>Cuaderno y colores.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Asegurar disponibilidad y carga de los dispositivos físicos (ej. tabletas, ordenadores).</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Ada" para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Activación Gnius Club ⏰ 3 minutos</h2>
+                <p>Presentar la dinámica de activación para explorar el concepto de "confianza".</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Activación Gnius Club ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 2. Activación: Saludo Secreto en Parejas.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Atención, Constructores! 📚 ¡A sus bibliotecas de conocimiento! Para activar nuestra mente de sabios, vamos a crear un Saludo Secreto en Parejas. La palabra clave que deben representar es: 'CONFIANZA'. ¿Cómo se ve un saludo que demuestra que confías en tu compañero? ¡Tienen 30 segundos!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activación Gnius Club ⏰ 2 minutos</h3>
+                            <p>Pide a los estudiantes que, en parejas, creen y practiquen su saludo. Pide a algunas parejas que lo muestren al grupo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Veo saludos increíbles! Unos se dan la mano, otros hacen gestos de apoyo... ¡Esa idea de que la confianza es algo que se construye y se demuestra es la base de nuestra misión de hoy! ¡Excelente trabajo!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Recuerdo Relámpago ⏰ 4 minutos</h2>
+                <p>Activar el conocimiento previo usando la pregunta clave de la misión anterior.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 3. Recuerdo Relámpago: La Checklist del Detective.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Constructores! Antes de poner el primer ladrillo de nuestra enciclopedia, recordemos nuestra herramienta de la misión pasada. La Checklist del Detective nos ayudaba a evaluar noticias. Pero eso nos dejó una pregunta: Si ya sabemos desconfiar de las noticias, ¿cómo podemos nosotros mismos crear contenido que sea 100% confiable y útil?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Pide a los estudiantes que, en parejas, discutan la pregunta. Conecta sus respuestas con la misión de hoy.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Discutan con su compañero. ¿Qué necesita una buena tarea escolar? (Pausa). ¡'Datos correctos', 'explicar de dónde lo sacaste', 'no inventar'! ¡Exacto! No solo somos consumidores de información, ¡también somos creadores! Hoy aprenderemos a ser los mejores constructores de conocimiento.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: Objetivos de la Misión: "I Can Statement" ⏰ 3 minutos</h2>
+                <p>Presentar la meta de la sesión con una metáfora de creación de conocimiento.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Proyecta Diapositiva 4. Objetivos de la Misión. (Imagen de un grupo de estudiantes añadiendo ladrillos de información verificada a una gran enciclopedia digital, construyéndola juntos).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Equipo! Nuestra misión de hoy es convertirnos en CONSTRUCTORES DE LA GRAN ENCICLOPEDIA DIGITAL GNIUS. No vamos a leer una enciclopedia, ¡vamos a crearla! Cada uno de nosotros aportará un 'ladrillo de conocimiento', pero debe ser un ladrillo sólido, verificado y de la más alta calidad.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Pide a los estudiantes que escriban o dibujen su "I Can Statement" y lo compartan.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Todo constructor tiene su especialidad. La mía es: 'Yo puedo escribir un dato sobre los planetas y citar la fuente de la NASA para probarlo'. Ahora ustedes, en su manual de constructor, completen: 'Hoy mi ladrillo de conocimiento será sobre...'.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Brain Boost ⏰ 5 minutos</h2>
+                <p>Despertar la curiosidad con una historia que presenta dos formas de presentar la misma información, destacando señales de alerta.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 5. Brain Boost: La Fuente Sospechosa. (Imagen de un sitio web llamativo y poco profesional: MundoTiburónCool.net).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Imaginen que tienen que hacer una tarea sobre tiburones 🦈. Abren su buscador y el primer resultado es de un sitio llamado 'MundoTiburónCool.net'. No tiene candado de seguridad 🔓. La página está llena de anuncios parpadeantes y el título principal dice, con letras enormes y un error: 'Los Tiburones son mákinas de matar súper asecinas que comen todo lo que ven!'. El texto es muy corto y emocionante, pero no dice de dónde sacaron esa información.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 6. Brain Boost: La Fuente Confiable. (Imagen de un sitio web profesional de un museo o acuario: MuseoDeCienciasMarinas.edu con candado de seguridad 🔒).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ustedes, como buenos detectives, siguen buscando y encuentran otra página: la del 'MuseoDeCienciasMarinas.edu'. Esta sí tiene un candado de seguridad 🔒. El sitio se ve ordenado y profesional. Su artículo se titula: 'El Rol del Tiburón en el Ecosistema Marino'. El texto es más largo y dice: 'Los tiburones son depredadores vitales... La mayoría de las especies no son peligrosas para los humanos y los ataques son muy raros, según estudios de la bióloga Dra. Eva Costa'.<br> ¿Qué 'señales' o 'pistas' específicas hacen que confíen más en la página del museo? ¡Nombren al menos tres!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Brain Boost ⏰ 1 minutos</h3>
+                            <p>Conecta la historia con el objetivo de la misión: aprender a identificar las marcas de calidad de la información.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Exacto! ¡El candado 🔒, la terminación .edu, la falta de errores de ortografía, el nombre de la experta! ¡Son pistas claras! Una fuente parece un chisme ruidoso, la otra parece un libro de un sabio. ¡Hoy aprenderemos a coleccionar solo las fuentes de los sabios para nuestra propia enciclopedia!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gamer Express ⏰ 10 minutos</h2>
+                <p>Practicar la verificación de datos en un entorno gamificado.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gamer Express ⏰ 10 minutos</h3>
+                            <p>Da la instrucción y los estudiantes ingresan a la plataforma para jugar el minijuego de la sesión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Es hora de ir a la biblioteca de datos! Ingresen a la plataforma y jueguen la misión 'Verificador de Datos'. Se les darán 'ladrillos de conocimiento' y tendrán que decidir si son lo suficientemente fuertes para nuestra enciclopedia o si son 'ladrillos falsos'. ¡No dejen que se cuele información débil!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-6">
+                <h2>⚡ Actividad 6: Challenge ⏰ 10 minutos</h2>
+                <p>Introducir el reto creativo y de evaluación, estableciendo el rol de "Editores en Jefe".</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Challenge ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 8. Challenge: La Sala de Edición.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Han demostrado ser excelentes verificadores! Ahora, la prueba final. Se convertirán en los Editores en Jefe de nuestra nueva enciclopedia. Su misión: crear y aprobar las nuevas entradas. 🧠</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Challenge ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 9. Challenge: El Tema de Hoy: ¡Los Gatos! Presenta el tema de investigación y la tarea de creación de la "Tarjeta de Datos" en parejas.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">El tema de hoy para nuestra enciclopedia es: ¡LOS GATOS! 🐱. Trabajando en parejas, su primera misión como editores es investigar en internet para crear una 'Tarjeta de Datos' sobre los gatos. Deben encontrar 3 datos interesantes y, muy importante, anotar la fuente de donde sacaron cada dato.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Challenge ⏰ 4 minutos</h3>
+                            <p>Proyecta Diapositiva 10. Challenge: ¡A Investigar y Revisar! Pide a los estudiantes que investiguen y creen su tarjeta. Luego, que intercambien cuadernos y actúen como "Revisores de Calidad" usando la checklist.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡A investigar, editores! Tienen 3 minutos para encontrar sus 3 datos y sus fuentes. ¡Adelante! <br> (Tras 3 minutos) ¡Tiempo! Ahora, el paso más importante de un editor: la revisión por pares. Intercambien su cuaderno con la pareja de al lado. Se convierten en 'Revisores de Calidad'. Usen esta checklist para evaluar la tarjeta que recibieron:<br> ✅ ¿Los datos parecen reales y específicos?<br> ✅ ¿Anotaron la fuente (el sitio web)?<br>✅ ¿La fuente parece confiable (.edu, .org, museo, etc.)?<br>¡Decidan si le dan su 'Sello de Aprobado'!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Challenge ⏰ 3 minutos</h3>
+                            <p>Proyecta Diapositiva 11. Challenge: Reporte de Edición. Refuerza el aprendizaje compartiendo las evaluaciones y discutiendo qué hace que un dato sea "aprobado".</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Tiempo de reporte! Devuelvan los cuadernos. Pareja 1, ¿qué tal la tarjeta que revisaron? ¿Recibió su Sello de Aprobado? ¿Por qué sí o por qué no? ¿Qué fuente usaron? ¡'National Geographic Kids'! ¡Esa es una fuente de alta calidad! Pareja 2, ¿ustedes encontraron algún dato que les hizo dudar? ¡Compartan su experiencia como revisores!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-7">
+                <h2>⚡ Actividad 7: Clave Secreta de la Misión ⏰ 5 minutos</h2>
+                <p>Consolidar la idea principal de la sesión con una pregunta poderosa.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Clave Secreta de la Misión ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 12. Clave Secreta de la Misión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Son oficialmente los mejores constructores de enciclopedias! Una última pregunta: ¿Cuál es el sello mental que le ponemos a un dato antes de considerarlo 'conocimiento de calidad Gnius'?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 13. El Sello de Calidad Gnius. Presenta los 3 puntos del sello.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Exacto! ¡Un sello de calidad! Para que siempre lo tengan listo para estampar, esta es su nueva clave secreta, el Sello de Calidad Gnius. Un dato confiable es: <br>✨ C - COMPROBABLE: ¿Podemos verificarlo en otro lugar? ✅<br>✨ E - ESPECÍFICO: ¿Da detalles y no solo opiniones? 🎯<br>✨ F - FIABLE: ¿Viene de una fuente experta? 🧑‍🔬</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Repite el acrónimo (C.E.F.) y sus significados con gestos. Lanza la pregunta de conexión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Vamos a estampar nuestro sello! ¡COMPROBABLE! (hacen un check en el aire). ¡ESPECÍFICO! (hacen como que lanzan un dardo). ¡FIABLE! (se ponen gafas de científico). ¡Perfecto! Guarden este sello, porque nos deja una pregunta: Si ya sabemos crear contenido confiable, ¿cómo lo compartimos de una forma que realmente ayude y no solo informe? 🤔 ¡Nos vemos en la próxima misión!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
